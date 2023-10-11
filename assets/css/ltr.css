@@ -1,0 +1,22 @@
+html{
+    direction: ltr;
+}
+.border-end{
+    border-left: 1px solid white!important;
+}
+.swiper-button-next::after,.swiper-button-prev::after{
+    content: '';
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 117px;
+  }
+  .ps-lg-5 {
+    padding-right: 3rem !important;
+    padding-left: 0 !important;
+  }
+  @media only screen and (max-width:992px) {
+    footer .border-end{
+        border-left: none!important;
+    }
+}
